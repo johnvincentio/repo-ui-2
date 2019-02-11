@@ -1,0 +1,154 @@
+/* line 1, ../scss/_main.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 5, ../scss/_main.scss */
+a, a:hover {
+  color: #000000;
+}
+
+/* line 9, ../scss/_main.scss */
+ul {
+  list-style: none;
+}
+
+/* line 13, ../scss/_main.scss */
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 18, ../scss/_main.scss */
+figure {
+  margin-bottom: 30px;
+}
+
+/* line 22, ../scss/_main.scss */
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 27, ../scss/_main.scss */
+div > h1, .site-name {
+  font-size: 2.5rem;
+}
+
+/* line 31, ../scss/_main.scss */
+nav > p {
+  cursor: pointer;
+}
+
+/* line 34, ../scss/_main.scss */
+.pill-black, .pill-white {
+  border: 0.5px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* line 40, ../scss/_main.scss */
+.pill-black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/* line 45, ../scss/_main.scss */
+footer {
+  margin-top: 20px;
+}
+
+/* line 49, ../scss/_main.scss */
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+/* Customizations of Bootstrap classes */
+/* line 56, ../scss/_main.scss */
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+/* line 61, ../scss/_main.scss */
+.col-sm-4 p {
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 1px;
+}
+
+/* line 67, ../scss/_main.scss */
+section.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 74, ../scss/_main.scss */
+.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 350px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 83, ../scss/_main.scss */
+.jumbotron h2 {
+  background-color: #FFFFFF;
+  display: inline-block;
+  color: #F06529;
+  font-weight: 700;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+/* line 92, ../scss/_main.scss */
+.jumbotron h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+/* line 97, ../scss/_main.scss */
+.btn-primary {
+  color: #2e6da4;
+  background-color: #FFFFFF;
+}
+
+/* line 102, ../scss/_main.scss */
+.col-sm-1 img {
+  min-width: 32px;
+  min-height: 33px;
+}
+
+/* Bootstrap overrides */
+/* line 109, ../scss/_main.scss */
+.navbar, .navbar-default {
+  margin: 0;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+/* line 115, ../scss/_main.scss */
+.btn-default,
+.btn-default:hover,
+.btn-default:active {
+  border: none;
+  background: #FFFFFF;
+}
+
+/* line 122, ../scss/_main.scss */
+.dropdown-menu {
+  left: 22px;
+}
+
+/* Bootstrap Overrides : modal */
+/* line 128, ../scss/_main.scss */
+.modal h3, .modal-body h4 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
